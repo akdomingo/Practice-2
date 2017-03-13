@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="84px" viewBox="0 0 69 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <g id="1200" transform="translate(-566.000000, -448.000000)" stroke="#DA6B1B" stroke-width="3">
+            <g id="main" transform="translate(45.000000, 450.000000)">
+                <g id="Icon-Pin" transform="translate(523.000000, 0.000000)">
+                    <path d="M32.4609375,80 C32.4609375,80 64.921875,49.3444701 64.921875,31.7882851 C64.921875,14.2321 50.3886182,0 32.4609375,0 C14.5332568,0 0,14.2321 0,31.7882851 C0,49.3444701 32.4609375,80 32.4609375,80 Z" id="Oval"></path>
+                    <ellipse id="Oval" cx="32.144043" cy="31.9338391" rx="10.144043" ry="9.93383908"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

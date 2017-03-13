@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="76px" viewBox="0 0 80 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="round">
+        <g id="1200" transform="translate(-180.000000, -448.000000)" stroke-width="3" stroke="#DA6B1B">
+            <g id="main" transform="translate(45.000000, 450.000000)">
+                <g id="Icon-Star" transform="translate(135.000000, 0.000000)">
+                    <polygon id="Star" points="40 60 16.4885899 72.3606798 20.9788697 46.1803399 1.95773935 27.6393202 28.244295 23.8196601 40 0 51.755705 23.8196601 78.0422607 27.6393202 59.0211303 46.1803399 63.5114101 72.3606798"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
