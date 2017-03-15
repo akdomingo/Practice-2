@@ -1,0 +1,18 @@
+/* Header */
+header {
+  height: 420px;
+  background: #cf0004 url("../Images/banner_large.jpg") no-repeat center bottom;
+  position: relative;
+}
+
+header div.hero {
+  position: absolute;
+  width: 42%;
+  top: 124px;
+  left: 50%;
+}
+
+header div.hero h1 {
+  margin-bottom: 20px;
+  color: #fff;
+}

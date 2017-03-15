@@ -1,0 +1,152 @@
+/* Main */
+section.main {
+  margin: 24px 24px 12px;
+  padding: 0;
+}
+
+section.main aside {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+section.main aside .content.favorites {
+  background-image: url("../Images/Icon-Star.svg");
+}
+section.main aside .content.locations {
+  background-image: url("../Images/Icon-Pin.svg");
+}
+section.main aside .content.settings {
+  background-image: url("../Images/Icon-gear.svg");
+}
+
+section.main aside .content {
+  margin: 0 8px;
+  background: no-repeat center top;
+  background-size: 75px;
+  padding-top: 80px;
+}
+
+section.main aside h2 a {
+  color: #DA6B1B;
+  text-decoration: none;
+}
+
+section.main aside h2 a:hover {
+  color: #8D0717;
+  text-decoration: underline;
+}
+
+/* Atmosphere */
+section.atmosphere {
+  padding: 32px 0 48px;
+  background-color: #DA6B1B;
+  color: #fff;
+}
+
+section.atmosphere article {
+  margin: 0 24px;
+  padding-left: 560px;
+  background: url("../Images/lounge.jpg")
+  no-repeat 0 24px;
+  min-height: 222px;
+  width: inherit;
+}
+
+section.atmosphere article h3 {
+  margin: 0;
+}
+
+section.atmosphere article p {
+  padding-bottom: 18px;
+}
+
+/* How To */
+section.how-to {
+  background-color: #FCF7E2;
+  padding: 12px 18px 36px;
+  position: relative;
+}
+
+section.how-to aside {
+  width: 28%;
+  float: left;
+  margin-right: 20px;
+}
+
+section.how-to aside img {
+  width: 100%;
+  margin: 12px;}
+
+section.how-to aside h4 {
+  margin: 8px 0 0 12px;
+}
+
+section.how-to aside h4 a {
+  color: #DA6B1B;
+  text-decoration: none;
+}
+
+section.how-to aside h4 a:hover {
+  color: #8D0717;
+  text-decoration: underline;
+}
+
+section.how-to aside p {
+  margin: 0 0 10px 12px;
+  font-size: 0.9em;
+}
+
+section.how-to aside a.readmore {
+  font-size: 0.75em;
+  margin-left: 12px;
+  font-weight:bold;
+}
+
+section.how-to blockquote {
+  margin: 0;
+  width: 36%;
+  color: #555;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 3%;
+}
+
+section.how-to blockquote p {
+  margin: 32px 50px 24px 24px;
+  align: center;
+  text-align: right;
+}
+
+section.how-to blockquote p.quote::before {
+  content: '\201c';
+  color: #DA6B1B;
+  font-size: 3em;
+  font-family: serif;
+  position: absolute;
+  top: 4px;
+  left: 14px;
+}
+
+section.how-to blockquote p.quote::after {
+  content: '\201d';
+  color: #DA6B1B;
+  font-size: 3em;
+  font-family: serif;
+  position: absolute;
+  bottom: 40px;
+  right: 14px;
+}
+
+section.how-to blockquote p.quote {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+section.how-to blockquote p.credit {
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: #999;
+  padding-right: 20px;
+}

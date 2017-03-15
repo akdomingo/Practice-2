@@ -1,8 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" media="screen" href="screen.css">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Roboto+Condensed" rel="stylesheet">
+
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="screen" href="css/navfooter.css">
+  <link rel="stylesheet" media="screen" href="css/header.css">
+  <link rel="stylesheet" media="screen" href="css/main.css">
+
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="Images/Favicon.ico" type="image/x-icon"/>
+
   <title> Everyday Things - Responsive Web Design and CSS Practice</title>
 </head>
 
@@ -11,7 +21,7 @@
     <header>
       <a class="logo" title="Everyday Things" a href="http://google.com"><span>Everyday Things</span></a>
       <div class="hero" align="center">
-        <h1>Hello There!</h1>
+        <h1 class="bannertext">Hello There!</h1>
         <a class="btn" title="Click here to Log in" href="#">Click here to Log in</a>
       </div>
     </header>
@@ -19,38 +29,39 @@
     <section class="main">
       <aside>
         <div class="content favorites">
-          <h3><a href="#">Favorites</a></h3>
+          <h2 class="columntitles"><a href="#">Favorites</a></h2>
           <p>Lorem ipsum dolor sit amet, commodo ipsum neque cursus elementum nisl etiam, elit luctus amet elit taciti. <a href="http://flumpool.co.jp"><strong>flumpool</strong></a> Elit eu proin, accumsan pretium suspendisse integer magna, aliquam libero.</p>
         </div>
       </aside>
 
       <aside>
         <div class="content locations">
-          <h3><a href="#">Locations</a></h3>
+          <h2 class="columntitles"><a href="#">Locations</a></h2>
           <p>Et cum ut ultrices elit in facilisi. Est lorem habitasse, dolor ligula, eleifend vestibulum esse ligula lectus, pellentesque commodo wisi. Sem et, vestibulum pede, sed lacus integer eleifend pretium a. Vehicula eget justo donec.</p>
         </div>
       </aside>
 
       <aside>
         <div class="content settings">
-          <h3><a href="#">Settings</a></h3>
+          <h2 class="columntitles"><a href="#">Settings</a></h2>
           <p>Habitant integer. Feugiat metus gravida a habitasse adipiscing vel, faucibus diam eu, placerat luctus ut diam morbi, sed aliquet tristique erat porta cras, pellentesque posuere vel blandit congue enim.</p>
         </div>
       </aside>
     </section>
 
-    <section class="atmosphere">     <article><h2>There is No Cow Level.</h2>
+    <section class="atmosphere">     <article><h3 class="titles">There is No Cow Level.</h3>
         <p>Velit erat laoreet egestas ac lorem, suspendisse metus eget non ligula. Urna eget quis lacus tempor, erat pede. Morbi non est lacinia primis arcu auctor, proin dignissim lobortis. Quam est, risus non lorem volutpat facilisi.<br></br>
         Velit erat laoreet egestas ac lorem, suspendisse metus eget non ligula. Urna eget quis lacus tempor, erat pede. Morbi non est lacinia primis arcu auctor, proin dignissim lobortis. Quam est, risus non lorem volutpat facilisi.</p>
         <a class="btn" title="There is No Cow Level." href="#">Learn More</a>
       </article>
 
     </section>
+
     <section class="how-to">
       <aside>
         <div class="content">
           <img alt="Tutorial Article for HTML" src="Images/seating@2x.jpg">
-          <h4><a href="#">Tutorial: HTML</a></h4>
+          <h4 class="articletitles"><a href="#">Tutorial: HTML</a></h4>
           <p>Porttitor nostra wisi sit phasellus, luctus molestie leo duis integer, phasellus elementum, etiam vestibulum porttitor venenatis integer enim. Ac sit dui viverra augue.</p>
           <a class="readmore" title="Read full article" href="#">Read full article</a>
         </div>
@@ -59,7 +70,7 @@
       <aside>
         <div class="content">
           <img alt="Tutorial Article for CSS" src="Images/lights@2x.jpg">
-          <h4><a href="#">Tutorial: CSS</a></h4>
+          <h4 class="articletitles"><a href="#">Tutorial: CSS</a></h4>
           <p>Porttitor nostra wisi sit phasellus, luctus molestie leo duis integer, phasellus elementum, etiam vestibulum porttitor venenatis integer enim. Ac sit dui viverra augue.</p>
           <a class="readmore" title="Read full article" href="#">Read full article</a>
         </div>
@@ -75,73 +86,72 @@
       </blockquote>
     </section>
 
-
     <nav>
       <ul>
-        <li>
-          <a title="About Us" href="#">About Us</a>
-          <ul>
-            <li><a title="History" href="#">History</a></li>
-            <li><a title="Mission" href="#">Mission</a></li>
-            <li><a title="Vision" href="#">Vision</a></li>
-          </ul>
+        <li><a title="About Us" href="#">About Us</a>
+            <ul>
+              <li><a title="History" href="#">History</a></li>
+              <li><a title="Mission" href="#">Mission</a></li>
+              <li><a title="Vision" href="#">Vision</a></li>
+            </ul>
         </li>
-        <li>
-          <a title="HTML Tutorials" href="#">HTML Tutorials</a>
-          <ul>
-            <li><a title="Beginner" href="#">Beginner</a></li>
-              <ul>
-                <li><a title="Lesson 1" href="#">Lesson 1</a></li>
-                <li><a title="Lesson 2" href="#">Lesson 2</a></li>
-                <li><a title="Lesson 3" href="#">Lesson 3</a></li>
-              </ul>
-            <li><a title="Intermmediate" href="#">Intermmediate</a></li>
-              <ul>
-                <li><a title="Lesson 1" href="#">Lesson 1</a></li>
-                <li><a title="Lesson 2" href="#">Lesson 2</a></li>
-                <li><a title="Lesson 3" href="#">Lesson 3</a></li>
-              </ul>
-            <li><a title="Expert" href="#">Expert</a></li>
-              <ul>
-                <li><a title="Lesson 1" href="#">Lesson 1</a></li>
-                <li><a title="Lesson 2" href="#">Lesson 2</a></li>
-                <li><a title="Lesson 3" href="#">Lesson 3</a></li>
-              </ul>
-          </ul>
+        <li><a title="HTML Tutorials" href="#">HTML Tutorials</a>
+            <ul>
+              <li><a title="Beginner" href="#">Beginner</a>
+                  <ul>
+                    <li><a title="Lesson 1" href="#">Lesson 1</a></li>
+                    <li><a title="Lesson 2" href="#">Lesson 2</a></li>
+                    <li><a title="Lesson 3" href="#">Lesson 3</a></li>
+                  </ul>
+              </li>
+              <li><a title="Intermmediate" href="#">Intermmediate</a>
+                  <ul>
+                    <li><a title="Lesson 1" href="#">Lesson 1</a></li>
+                    <li><a title="Lesson 2" href="#">Lesson 2</a></li>
+                    <li><a title="Lesson 3" href="#">Lesson 3</a></li>
+                  </ul>
+              </li>
+              <li><a title="Expert" href="#">Expert</a>
+                  <ul>
+                    <li><a title="Lesson 1" href="#">Lesson 1</a></li>
+                    <li><a title="Lesson 2" href="#">Lesson 2</a></li>
+                    <li><a title="Lesson 3" href="#">Lesson 3</a></li>
+                  </ul>
+              </li>
+            </ul>
         </li>
-        <li>
-          <a title="CSS Tutorials" href="#">CSS Tutorials</a>
-          <ul>
-            <li><a title="Beginner" href="#">Beginner</a></li>
-              <ul>
-                <li><a title="Lesson 1" href="#">Lesson 1</a></li>
-                <li><a title="Lesson 2" href="#">Lesson 2</a></li>
-                <li><a title="Lesson 3" href="#">Lesson 3</a></li>
-              </ul>
-            <li><a title="Intermmediate" href="#">Intermmediate</a></li>
-              <ul>
-                <li><a title="Lesson 1" href="#">Lesson 1</a></li>
-                <li><a title="Lesson 2" href="#">Lesson 2</a></li>
-                <li><a title="Lesson 3" href="#">Lesson 3</a></li>
-              </ul>
-            <li><a title="Expert" href="#">Expert</a></li>
-              <ul>
-                <li><a title="Lesson 1" href="#">Lesson 1</a></li>
-                <li><a title="Lesson 2" href="#">Lesson 2</a></li>
-                <li><a title="Lesson 3" href="#">Lesson 3</a></li>
-              </ul>
-          </ul>
+        <li><a title="CSS Tutorials" href="#">CSS Tutorials</a>
+            <ul>
+              <li><a title="Beginner" href="#">Beginner</a>
+                  <ul>
+                    <li><a title="Lesson 1" href="#">Lesson 1</a></li>
+                    <li><a title="Lesson 2" href="#">Lesson 2</a></li>
+                    <li><a title="Lesson 3" href="#">Lesson 3</a></li>
+                  </ul>
+              </li>
+              <li><a title="Intermmediate" href="#">Intermmediate</a>
+                  <ul>
+                    <li><a title="Lesson 1" href="#">Lesson 1</a></li>
+                    <li><a title="Lesson 2" href="#">Lesson 2</a></li>
+                    <li><a title="Lesson 3" href="#">Lesson 3</a></li>
+                  </ul>
+              </li>
+              <li><a title="Expert" href="#">Expert</a>
+                  <ul>
+                    <li><a title="Lesson 1" href="#">Lesson 1</a></li>
+                    <li><a title="Lesson 2" href="#">Lesson 2</a></li>
+                    <li><a title="Lesson 3" href="#">Lesson 3</a></li>
+                  </ul>
+              </li>
+            </ul>
         </li>
-        <li>
-          <a title="Contact Us" href="#">Contact Us</a>
-        </li>
+        <li><a title="Contact Us" href="#">Contact Us</a></li>
       </ul>
     </nav>
 
-
     <footer>
-      &copy; Everyday Things
       <div class="content">
+        &copy; Everyday Things
         <a title="Privacy Policy" href="#">Privacy Policy</a>
         <a title="Terms and Conditions" href="#">Terms and Conditions</a>
       </div>
